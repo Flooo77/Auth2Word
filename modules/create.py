@@ -116,12 +116,20 @@ def create_report(template_path, data, placeholders, output_path):
     doc.save(output_path)
     return output_path
 
-def list_arg (data, arg):
-    """_summary_
+def list_arg(data, arg):
+    """
+    Génère une chaîne de caractères formatée à partir des éléments d'une liste dans 
+    le dictionnaire fourni.
 
     Args:
-        data (_type_): _description_
+        data (dict): Le dictionnaire contenant les données.
+        arg (str): La clé correspondant à la liste d'éléments dans le dictionnaire.
+
+    Returns:
+        str: Une chaîne de caractères avec chaque élément de la liste précédé d'un 
+             tiret et d'un retour à la ligne.
     """
+
     args = ''
     for elem in data[arg]:
         args += f'- {elem} \n'
