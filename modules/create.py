@@ -12,7 +12,6 @@ Functions:
 import os
 
 from docx import Document
-from docx.shared import Pt
 
 
 def replace_placeholder(paragraph, placeholder, replacement):
