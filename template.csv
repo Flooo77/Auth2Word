@@ -1,0 +1,13 @@
+method,route,param,Ecole,SAILME,NonAuth
+GET,/provideItems,page=1,,,x
+GET,/_wdt/5a23f4,,,x,x
+GET,/catalog,,x,,
+GET,/_wdt/6a0451,,,x,
+GET,/,,,,x
+POST,/profile,,x,,
+GET,/_wdt/71d7df,,x,,
+GET,/profile,,,,
+POST,/login,,,,
+GET,/_wdt/344b6e,,x,,
+GET,/login,,,x,
+GET,/admin/orders,,,,
