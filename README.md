@@ -27,7 +27,7 @@ pip install python-docx
 
 Cloner ce répertoire :
 ```
-git clone <url-depot>
+git clone https://github.com/Flooo77/Auth2Word.git
 ```
 
 ## Utilisation 
