@@ -57,10 +57,17 @@ def main(xml_file_path, template_path, output_path, csv_path):
     initialize_csv(data, csv_path)
 
     # Wait for user to complete the CSV file
-    input ("The Auth_Analyser_Report.csv has been created, please fill it.")
-    completed = input("Have you completed the CSV file? (y/n): ")
-    while completed.lower() != 'y':
-        completed = input("Please complete the CSV file and enter 'y' when done: ")
+    print("Le fichier 'Auth_Analyser_Report.csv' a été créé. Dans ce fichier, indiquez un 'x' pour signaler que l'utilisateur a accès à la route spécifiée.")
+    print("Exemple :")
+    print("+--------+--------+-------+-------+-------+-------+")
+    print("| method | route  | param | admin | user1 | user2 |")
+    print("+--------+--------+-------+-------+-------+-------+")
+    print("| GET    | /admin |       |   x   |       |       |")
+    print("+--------+--------+-------+-------+-------+-------+")
+    completed = input("Avez-vous terminé de remplir le fichier CSV ? (o/n) : ")
+    while completed.lower() != 'o':
+        completed = input("Veuillez terminer de remplir le fichier CSV, puis entrez 'o' pour confirmer : ")
+
 
     # Read the completed CSV file
     csv_data = read_csv(csv_path)
@@ -71,7 +78,7 @@ def main(xml_file_path, template_path, output_path, csv_path):
     # Create the Word report by replacing placeholders and adding data tables
     create_report(template_path, data, placeholders, output_path)
 
-    print(f"Report generated and saved to: {output_path}")
+    print(f"Rapport généré et sauvegardé à l'emplacement : {output_path}")
 
 # Example usage (if running this script directly)
 if __name__ == "__main__":
