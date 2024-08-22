@@ -87,23 +87,7 @@ def extract_app_name(first_message, data):
     if host is not None:
         data['NOM_APP'] = host.text
 
-def extract_recap_entries(root, data):
-    """
-    Extracts recap entries from all 'Message' elements in the XML root and updates 
-    the 'data' dictionary.
 
-    Args:
-        root (xml.etree.ElementTree.Element): The root element of the XML tree 
-        containing 'Message' elements.
-        data (dict): The dictionary to which recap entries will be added.
-    """
-
-    for message in root.findall('Message'):
-        recap_entry = {}
-        extract_method(message, recap_entry)
-        extract_path_and_params(message, recap_entry, data)
-        extract_bypass_statuses(message, recap_entry, data)
-        data['TAB_RECAP'].append(recap_entry)
 
 def extract_method(message, recap_entry):
     """
@@ -161,6 +145,24 @@ def extract_bypass_statuses(message, recap_entry, data):
         bypass_status = message.find(f'{profile}_Bypass_Status')
         recap_entry[profile] = bypass_status.text if bypass_status is not None else ''
 
+def extract_recap_entries(root, data):
+    """
+    Extracts recap entries from all 'Message' elements in the XML root and updates 
+    the 'data' dictionary.
+
+    Args:
+        root (xml.etree.ElementTree.Element): The root element of the XML tree 
+        containing 'Message' elements.
+        data (dict): The dictionary to which recap entries will be added.
+    """
+
+    for message in root.findall('Message'):
+        recap_entry = {}
+        extract_method(message, recap_entry)
+        extract_path_and_params(message, recap_entry, data)
+        extract_bypass_statuses(message, recap_entry, data)
+        data['TAB_RECAP'].append(recap_entry)
+        
 def parse_xml(file_path):
     """
     Parses an XML file and extracts relevant data into a dictionary.
