@@ -33,7 +33,7 @@ def initialize_csv(data, csv_path):
 
     # Delete the CSV file if it exists
     if os.path.exists(csv_path):
-        print('delete')
+        print(f'\n\n[INFO] - Fichier CSV existant supprimé : {csv_path}\n')
         os.remove(csv_path)
 
     with open(csv_path, mode='w', newline='', encoding="utf-8") as file:

@@ -42,6 +42,8 @@ def add_tables(doc, data):
         data (dict): A dictionary containing the data to populate the table.
             It should include a key 'TAB_RECAP' with a list of dictionaries.
     """
+
+    print(f'[INFO] Nouveau dictionnaire : \n\n{data}')
     keys_first_element = list(data['NEW_TAB'][0].keys())
 
     container_table = doc.tables[0]
@@ -67,7 +69,6 @@ def add_tables(doc, data):
         cell.paragraphs[0].runs[0].font.bold = True
 
     for recap in data['NEW_TAB']:
-        print(f"[recap] {recap}")
         new_row = table_test.add_row().cells
         for i, key in enumerate(keys_first_element):
             new_row[i].text = str(recap[key])
@@ -109,7 +110,7 @@ def create_report(template_path, data, placeholders, output_path):
 
     # Delete the CSV file if it exists
     if os.path.exists(output_path):
-        print('delete')
+        print(f'[INFO] - Rapport existant supprimé : {output_path}')
         os.remove(output_path)
 
     doc.save(output_path)
@@ -117,16 +118,15 @@ def create_report(template_path, data, placeholders, output_path):
 
 def list_arg(data, arg):
     """
-    Génère une chaîne de caractères formatée à partir des éléments d'une liste dans 
-    le dictionnaire fourni.
+    Generates a formatted string from the elements of a list in the provided dictionary.
 
     Args:
-        data (dict): Le dictionnaire contenant les données.
-        arg (str): La clé correspondant à la liste d'éléments dans le dictionnaire.
+        data (dict): The dictionary containing the data.
+        arg (str): The key corresponding to the list of elements in the dictionary.
 
     Returns:
-        str: Une chaîne de caractères avec chaque élément de la liste précédé d'un 
-             tiret et d'un retour à la ligne.
+        str: A string with each element of the list preceded by a dash and followed 
+             by a newline character.
     """
 
     args = ''

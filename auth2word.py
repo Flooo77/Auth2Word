@@ -29,7 +29,7 @@ Example usage:
     XML_FILE_PATH = "Auth_Analyzer_Report.xml"
     TEMPLATE_PATH = "auth_template.docx"
     OUTPUT_PATH = "rapport_final.docx"
-    CSV_PATH = "template.csv"
+    CSV_PATH = "acces_routes.csv"
     main(XML_FILE_PATH, TEMPLATE_PATH, OUTPUT_PATH, CSV_PATH)
 """
 
@@ -57,16 +57,17 @@ def main(xml_file_path, template_path, output_path, csv_path):
     initialize_csv(data, csv_path)
 
     # Wait for user to complete the CSV file
-    print("Le fichier 'Auth_Analyser_Report.csv' a été créé. Dans ce fichier, indiquez un 'x' pour signaler que l'utilisateur a accès à la route spécifiée.")
+    print(f"\nLe fichier {csv_path} a été créé. Dans ce fichier, indiquez un 'x' pour signaler que l'utilisateur a accès à la route spécifiée.\n")
     print("Exemple :")
+    print("Supposons que le profil admin est le seul à avoir accès à la route /admin, alors le fichier CSV sera rempli comme suit :\n")
     print("+--------+--------+-------+-------+-------+-------+")
     print("| method | route  | param | admin | user1 | user2 |")
     print("+--------+--------+-------+-------+-------+-------+")
     print("| GET    | /admin |       |   x   |       |       |")
-    print("+--------+--------+-------+-------+-------+-------+")
-    completed = input("Avez-vous terminé de remplir le fichier CSV ? (o/n) : ")
-    while completed.lower() != 'o':
-        completed = input("Veuillez terminer de remplir le fichier CSV, puis entrez 'o' pour confirmer : ")
+    print("+--------+--------+-------+-------+-------+-------+\n")
+    completed = input("Avez-vous terminé de remplir le fichier CSV ? (y/n) : ")
+    while completed.lower() != 'y':
+        completed = input("Veuillez terminer de remplir le fichier CSV, puis entrez 'y' pour confirmer : ")
 
 
     # Read the completed CSV file
@@ -86,7 +87,7 @@ if __name__ == "__main__":
     XML_FILE_PATH = "Auth_Analyzer_Report.xml"
     TEMPLATE_PATH = "auth_template.docx"
     OUTPUT_PATH = "rapport_final.docx"
-    CSV_PATH = "template.csv"
+    CSV_PATH = "acces_routes.csv"
 
     # Generate the report
     main(XML_FILE_PATH, TEMPLATE_PATH, OUTPUT_PATH, CSV_PATH)

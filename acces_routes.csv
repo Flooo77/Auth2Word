@@ -1,0 +1,6 @@
+method,route,param,Ecole,SAILME,NonAuth
+GET,/tests,,,x,
+GET,/oui,param=,,x,
+GET,/oui,test=,,x,
+GET,/oui,,,x,
+GET,/tests,param=,,x,

@@ -102,17 +102,47 @@ def extract_method(message, recap_entry):
     method = message.find('Method')
     recap_entry['method'] = method.text if method is not None else ''
 
-def extract_path_and_params(message, recap_entry, data):
+def is_duplicate_route(route, param, data):
     """
-    Extracts the path and query parameters from a 'Message' element and updates the 
-    recap entry and data.
+    Checks if a route with the same parameters already exists in the data['TAB_RECAP'].
 
     Args:
-        message (xml.etree.ElementTree.Element): The 'Message' element from which to
-        extract the path and parameters.
-        recap_entry (dict): The dictionary to which the path and parameters will be 
-        added.
-        data (dict): The dictionary to which the route will be added.
+        route (str): The route to check for duplicates.
+        param (dict): A dictionary of parameters associated with the route.
+        data (dict): A dictionary containing a key 'TAB_RECAP', which is a list of 
+                     dictionaries.
+                     Each dictionary in 'TAB_RECAP' contains keys 'route' and 'param' 
+                     to compare against.
+
+    Returns:
+        bool: True if an entry with the same route and parameters already exists in 'TAB_RECAP', 
+              otherwise False.
+    """
+
+    for entry in data['TAB_RECAP']:
+        if entry['route'] == route and entry['param'] == param:
+            return True
+    return False
+
+def extract_path_and_params(message, recap_entry, data):
+    """
+    Extracts the path and query parameters from a 'Message' XML element and updates the 
+    recap entry and data structures accordingly.
+
+    Args:
+        message (xml.etree.ElementTree.Element): The 'Message' XML element from which 
+            the path and parameters are to be extracted.
+        recap_entry (dict): The dictionary to which the extracted route and parameters 
+            will be added. This dictionary is updated in place.
+        data (dict): A dictionary that contains keys such as 'LISTE_ROUTES' and 
+            'TAB_RECAP'. The extracted route is added to 'LISTE_ROUTES' if it is not a 
+            duplicate, and the route and parameters are checked against 'TAB_RECAP' 
+            to avoid duplicates.
+
+    Returns:
+        bool: True if the route and parameters were successfully extracted and are 
+              not duplicates. False if a duplicate route with the same parameters 
+              was found, and no update was made.
     """
 
     path = message.find('Path')
@@ -120,14 +150,30 @@ def extract_path_and_params(message, recap_entry, data):
         full_path = path.text
         if '?' in full_path:
             route, param = full_path.split('?', 1)
+            param = param.split('=')[0] + "="
         else:
             route, param = full_path, ''
-        recap_entry['route'] = route
-        recap_entry['param'] = param
-        data['LISTE_ROUTES'].append(route)
+
+        if not is_duplicate_route(route, param, data):
+            recap_entry['route'] = route
+            recap_entry['param'] = param
+            if route not in data['LISTE_ROUTES']:
+                if param:
+                    print(f'[INFO] - Route ajoutée : {route}?{param}')
+                else:
+                    print(f'[INFO] - Route ajoutée : {route}')
+        else:
+            if param:
+                print(f'[INFO] - Doublon : {route}?{param}')
+            else:
+                print(f'[INFO] - Doublon : {route}')
+
+            return False
     else:
         recap_entry['route'] = ''
         recap_entry['param'] = ''
+
+    return True
 
 def extract_bypass_statuses(message, recap_entry, data):
     """
@@ -159,10 +205,15 @@ def extract_recap_entries(root, data):
     for message in root.findall('Message'):
         recap_entry = {}
         extract_method(message, recap_entry)
-        extract_path_and_params(message, recap_entry, data)
-        extract_bypass_statuses(message, recap_entry, data)
-        data['TAB_RECAP'].append(recap_entry)
-        
+        if extract_path_and_params(message, recap_entry, data):
+            extract_bypass_statuses(message, recap_entry, data)
+            data['TAB_RECAP'].append(recap_entry)
+
+            if recap_entry['param']:
+                data['LISTE_ROUTES'].append(recap_entry['route'] + '?' + recap_entry['param'])
+            else:
+                data['LISTE_ROUTES'].append(recap_entry['route'])
+
 def parse_xml(file_path):
     """
     Parses an XML file and extracts relevant data into a dictionary.
@@ -185,5 +236,9 @@ def parse_xml(file_path):
         extract_app_name(first_message, data)
 
     extract_recap_entries(root, data)
+
+    print('\n[INFO] - Dictionnaire :')
+    for key, value in data.items():
+        print(f"{key}: {value}")
 
     return data

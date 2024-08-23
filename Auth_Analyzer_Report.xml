@@ -1,193 +1,165 @@
-<?xml version="1.0" encoding="UTF-8"?><Content><Message><ID><![CDATA[12]]></ID>
-<Method><![CDATA[GET]]></Method>
-<Host><![CDATA[sogecdeltapp.web.oxv.fr]]></Host>
-<Path><![CDATA[/provideItems?page=1]]></Path>
-<Comment><![CDATA[]]></Comment>
-<Original_Status_Code><![CDATA[200]]></Original_Status_Code>
-<Original_Content_Length><![CDATA[158]]></Original_Content_Length>
-<Ecole_Bypass_Status><![CDATA[DIFFERENT]]></Ecole_Bypass_Status>
-<Ecole_Status_Code><![CDATA[302]]></Ecole_Status_Code>
-<Ecole_Content_Length><![CDATA[270]]></Ecole_Content_Length>
-<SAILME_Bypass_Status><![CDATA[DIFFERENT]]></SAILME_Bypass_Status>
-<SAILME_Status_Code><![CDATA[302]]></SAILME_Status_Code>
-<SAILME_Content_Length><![CDATA[270]]></SAILME_Content_Length>
-<NonAuth_Bypass_Status><![CDATA[DIFFERENT]]></NonAuth_Bypass_Status>
-<NonAuth_Status_Code><![CDATA[302]]></NonAuth_Status_Code>
-<NonAuth_Content_Length><![CDATA[270]]></NonAuth_Content_Length></Message>
-<Message><ID><![CDATA[11]]></ID>
-<Method><![CDATA[GET]]></Method>
-<Host><![CDATA[sogecdeltapp.web.oxv.fr]]></Host>
-<Path><![CDATA[/_wdt/5a23f4]]></Path>
-<Comment><![CDATA[]]></Comment>
-<Original_Status_Code><![CDATA[200]]></Original_Status_Code>
-<Original_Content_Length><![CDATA[24159]]></Original_Content_Length>
-<Ecole_Bypass_Status><![CDATA[SAME]]></Ecole_Bypass_Status>
-<Ecole_Status_Code><![CDATA[200]]></Ecole_Status_Code>
-<Ecole_Content_Length><![CDATA[24159]]></Ecole_Content_Length>
-<SAILME_Bypass_Status><![CDATA[SAME]]></SAILME_Bypass_Status>
-<SAILME_Status_Code><![CDATA[200]]></SAILME_Status_Code>
-<SAILME_Content_Length><![CDATA[24159]]></SAILME_Content_Length>
-<NonAuth_Bypass_Status><![CDATA[SAME]]></NonAuth_Bypass_Status>
-<NonAuth_Status_Code><![CDATA[200]]></NonAuth_Status_Code>
-<NonAuth_Content_Length><![CDATA[24159]]></NonAuth_Content_Length></Message>
-<Message><ID><![CDATA[10]]></ID>
-<Method><![CDATA[GET]]></Method>
-<Host><![CDATA[sogecdeltapp.web.oxv.fr]]></Host>
-<Path><![CDATA[/catalog]]></Path>
-<Comment><![CDATA[]]></Comment>
-<Original_Status_Code><![CDATA[200]]></Original_Status_Code>
-<Original_Content_Length><![CDATA[87375]]></Original_Content_Length>
-<Ecole_Bypass_Status><![CDATA[DIFFERENT]]></Ecole_Bypass_Status>
-<Ecole_Status_Code><![CDATA[302]]></Ecole_Status_Code>
-<Ecole_Content_Length><![CDATA[270]]></Ecole_Content_Length>
-<SAILME_Bypass_Status><![CDATA[DIFFERENT]]></SAILME_Bypass_Status>
-<SAILME_Status_Code><![CDATA[302]]></SAILME_Status_Code>
-<SAILME_Content_Length><![CDATA[270]]></SAILME_Content_Length>
-<NonAuth_Bypass_Status><![CDATA[DIFFERENT]]></NonAuth_Bypass_Status>
-<NonAuth_Status_Code><![CDATA[302]]></NonAuth_Status_Code>
-<NonAuth_Content_Length><![CDATA[270]]></NonAuth_Content_Length></Message>
-<Message><ID><![CDATA[9]]></ID>
-<Method><![CDATA[GET]]></Method>
-<Host><![CDATA[sogecdeltapp.web.oxv.fr]]></Host>
-<Path><![CDATA[/_wdt/6a0451]]></Path>
-<Comment><![CDATA[]]></Comment>
-<Original_Status_Code><![CDATA[200]]></Original_Status_Code>
-<Original_Content_Length><![CDATA[27562]]></Original_Content_Length>
-<Ecole_Bypass_Status><![CDATA[SAME]]></Ecole_Bypass_Status>
-<Ecole_Status_Code><![CDATA[200]]></Ecole_Status_Code>
-<Ecole_Content_Length><![CDATA[27562]]></Ecole_Content_Length>
-<SAILME_Bypass_Status><![CDATA[SAME]]></SAILME_Bypass_Status>
-<SAILME_Status_Code><![CDATA[200]]></SAILME_Status_Code>
-<SAILME_Content_Length><![CDATA[27562]]></SAILME_Content_Length>
-<NonAuth_Bypass_Status><![CDATA[SAME]]></NonAuth_Bypass_Status>
-<NonAuth_Status_Code><![CDATA[200]]></NonAuth_Status_Code>
-<NonAuth_Content_Length><![CDATA[27562]]></NonAuth_Content_Length></Message>
-<Message><ID><![CDATA[8]]></ID>
-<Method><![CDATA[GET]]></Method>
-<Host><![CDATA[sogecdeltapp.web.oxv.fr]]></Host>
-<Path><![CDATA[/]]></Path>
-<Comment><![CDATA[]]></Comment>
-<Original_Status_Code><![CDATA[200]]></Original_Status_Code>
-<Original_Content_Length><![CDATA[75098]]></Original_Content_Length>
-<Ecole_Bypass_Status><![CDATA[DIFFERENT]]></Ecole_Bypass_Status>
-<Ecole_Status_Code><![CDATA[302]]></Ecole_Status_Code>
-<Ecole_Content_Length><![CDATA[270]]></Ecole_Content_Length>
-<SAILME_Bypass_Status><![CDATA[DIFFERENT]]></SAILME_Bypass_Status>
-<SAILME_Status_Code><![CDATA[302]]></SAILME_Status_Code>
-<SAILME_Content_Length><![CDATA[270]]></SAILME_Content_Length>
-<NonAuth_Bypass_Status><![CDATA[DIFFERENT]]></NonAuth_Bypass_Status>
-<NonAuth_Status_Code><![CDATA[302]]></NonAuth_Status_Code>
-<NonAuth_Content_Length><![CDATA[270]]></NonAuth_Content_Length></Message>
-<Message><ID><![CDATA[7]]></ID>
-<Method><![CDATA[POST]]></Method>
-<Host><![CDATA[sogecdeltapp.web.oxv.fr]]></Host>
-<Path><![CDATA[/profile]]></Path>
-<Comment><![CDATA[]]></Comment>
-<Original_Status_Code><![CDATA[302]]></Original_Status_Code>
-<Original_Content_Length><![CDATA[250]]></Original_Content_Length>
-<Ecole_Bypass_Status><![CDATA[DIFFERENT]]></Ecole_Bypass_Status>
-<Ecole_Status_Code><![CDATA[302]]></Ecole_Status_Code>
-<Ecole_Content_Length><![CDATA[270]]></Ecole_Content_Length>
-<SAILME_Bypass_Status><![CDATA[DIFFERENT]]></SAILME_Bypass_Status>
-<SAILME_Status_Code><![CDATA[302]]></SAILME_Status_Code>
-<SAILME_Content_Length><![CDATA[270]]></SAILME_Content_Length>
-<NonAuth_Bypass_Status><![CDATA[DIFFERENT]]></NonAuth_Bypass_Status>
-<NonAuth_Status_Code><![CDATA[302]]></NonAuth_Status_Code>
-<NonAuth_Content_Length><![CDATA[270]]></NonAuth_Content_Length></Message>
-<Message><ID><![CDATA[6]]></ID>
-<Method><![CDATA[GET]]></Method>
-<Host><![CDATA[sogecdeltapp.web.oxv.fr]]></Host>
-<Path><![CDATA[/_wdt/71d7df]]></Path>
-<Comment><![CDATA[]]></Comment>
-<Original_Status_Code><![CDATA[200]]></Original_Status_Code>
-<Original_Content_Length><![CDATA[22347]]></Original_Content_Length>
-<Ecole_Bypass_Status><![CDATA[SAME]]></Ecole_Bypass_Status>
-<Ecole_Status_Code><![CDATA[200]]></Ecole_Status_Code>
-<Ecole_Content_Length><![CDATA[22347]]></Ecole_Content_Length>
-<SAILME_Bypass_Status><![CDATA[SAME]]></SAILME_Bypass_Status>
-<SAILME_Status_Code><![CDATA[200]]></SAILME_Status_Code>
-<SAILME_Content_Length><![CDATA[22347]]></SAILME_Content_Length>
-<NonAuth_Bypass_Status><![CDATA[SAME]]></NonAuth_Bypass_Status>
-<NonAuth_Status_Code><![CDATA[200]]></NonAuth_Status_Code>
-<NonAuth_Content_Length><![CDATA[22347]]></NonAuth_Content_Length></Message>
-<Message><ID><![CDATA[5]]></ID>
-<Method><![CDATA[GET]]></Method>
-<Host><![CDATA[sogecdeltapp.web.oxv.fr]]></Host>
-<Path><![CDATA[/profile]]></Path>
-<Comment><![CDATA[]]></Comment>
-<Original_Status_Code><![CDATA[200]]></Original_Status_Code>
-<Original_Content_Length><![CDATA[59312]]></Original_Content_Length>
-<Ecole_Bypass_Status><![CDATA[DIFFERENT]]></Ecole_Bypass_Status>
-<Ecole_Status_Code><![CDATA[302]]></Ecole_Status_Code>
-<Ecole_Content_Length><![CDATA[270]]></Ecole_Content_Length>
-<SAILME_Bypass_Status><![CDATA[DIFFERENT]]></SAILME_Bypass_Status>
-<SAILME_Status_Code><![CDATA[302]]></SAILME_Status_Code>
-<SAILME_Content_Length><![CDATA[270]]></SAILME_Content_Length>
-<NonAuth_Bypass_Status><![CDATA[DIFFERENT]]></NonAuth_Bypass_Status>
-<NonAuth_Status_Code><![CDATA[302]]></NonAuth_Status_Code>
-<NonAuth_Content_Length><![CDATA[270]]></NonAuth_Content_Length></Message>
-<Message><ID><![CDATA[4]]></ID>
-<Method><![CDATA[POST]]></Method>
-<Host><![CDATA[sogecdeltapp.web.oxv.fr]]></Host>
-<Path><![CDATA[/login]]></Path>
-<Comment><![CDATA[]]></Comment>
-<Original_Status_Code><![CDATA[302]]></Original_Status_Code>
-<Original_Content_Length><![CDATA[278]]></Original_Content_Length>
-<Ecole_Bypass_Status><![CDATA[SIMILAR]]></Ecole_Bypass_Status>
-<Ecole_Status_Code><![CDATA[302]]></Ecole_Status_Code>
-<Ecole_Content_Length><![CDATA[270]]></Ecole_Content_Length>
-<SAILME_Bypass_Status><![CDATA[SIMILAR]]></SAILME_Bypass_Status>
-<SAILME_Status_Code><![CDATA[302]]></SAILME_Status_Code>
-<SAILME_Content_Length><![CDATA[270]]></SAILME_Content_Length>
-<NonAuth_Bypass_Status><![CDATA[SIMILAR]]></NonAuth_Bypass_Status>
-<NonAuth_Status_Code><![CDATA[302]]></NonAuth_Status_Code>
-<NonAuth_Content_Length><![CDATA[270]]></NonAuth_Content_Length></Message>
-<Message><ID><![CDATA[3]]></ID>
-<Method><![CDATA[GET]]></Method>
-<Host><![CDATA[sogecdeltapp.web.oxv.fr]]></Host>
-<Path><![CDATA[/_wdt/344b6e]]></Path>
-<Comment><![CDATA[]]></Comment>
-<Original_Status_Code><![CDATA[200]]></Original_Status_Code>
-<Original_Content_Length><![CDATA[21710]]></Original_Content_Length>
-<Ecole_Bypass_Status><![CDATA[SAME]]></Ecole_Bypass_Status>
-<Ecole_Status_Code><![CDATA[200]]></Ecole_Status_Code>
-<Ecole_Content_Length><![CDATA[21710]]></Ecole_Content_Length>
-<SAILME_Bypass_Status><![CDATA[SAME]]></SAILME_Bypass_Status>
-<SAILME_Status_Code><![CDATA[200]]></SAILME_Status_Code>
-<SAILME_Content_Length><![CDATA[21710]]></SAILME_Content_Length>
-<NonAuth_Bypass_Status><![CDATA[SAME]]></NonAuth_Bypass_Status>
-<NonAuth_Status_Code><![CDATA[200]]></NonAuth_Status_Code>
-<NonAuth_Content_Length><![CDATA[21710]]></NonAuth_Content_Length></Message>
-<Message><ID><![CDATA[2]]></ID>
-<Method><![CDATA[GET]]></Method>
-<Host><![CDATA[sogecdeltapp.web.oxv.fr]]></Host>
-<Path><![CDATA[/login]]></Path>
-<Comment><![CDATA[]]></Comment>
-<Original_Status_Code><![CDATA[200]]></Original_Status_Code>
-<Original_Content_Length><![CDATA[57778]]></Original_Content_Length>
-<Ecole_Bypass_Status><![CDATA[SIMILAR]]></Ecole_Bypass_Status>
-<Ecole_Status_Code><![CDATA[200]]></Ecole_Status_Code>
-<Ecole_Content_Length><![CDATA[57764]]></Ecole_Content_Length>
-<SAILME_Bypass_Status><![CDATA[SIMILAR]]></SAILME_Bypass_Status>
-<SAILME_Status_Code><![CDATA[200]]></SAILME_Status_Code>
-<SAILME_Content_Length><![CDATA[57785]]></SAILME_Content_Length>
-<NonAuth_Bypass_Status><![CDATA[SIMILAR]]></NonAuth_Bypass_Status>
-<NonAuth_Status_Code><![CDATA[200]]></NonAuth_Status_Code>
-<NonAuth_Content_Length><![CDATA[57773]]></NonAuth_Content_Length></Message>
-<Message><ID><![CDATA[1]]></ID>
-<Method><![CDATA[GET]]></Method>
-<Host><![CDATA[sogecdeltapp.web.oxv.fr]]></Host>
-<Path><![CDATA[/admin/orders]]></Path>
-<Comment><![CDATA[]]></Comment>
-<Original_Status_Code><![CDATA[302]]></Original_Status_Code>
-<Original_Content_Length><![CDATA[270]]></Original_Content_Length>
-<Ecole_Bypass_Status><![CDATA[SAME]]></Ecole_Bypass_Status>
-<Ecole_Status_Code><![CDATA[302]]></Ecole_Status_Code>
-<Ecole_Content_Length><![CDATA[270]]></Ecole_Content_Length>
-<SAILME_Bypass_Status><![CDATA[SAME]]></SAILME_Bypass_Status>
-<SAILME_Status_Code><![CDATA[302]]></SAILME_Status_Code>
-<SAILME_Content_Length><![CDATA[270]]></SAILME_Content_Length>
-<NonAuth_Bypass_Status><![CDATA[SAME]]></NonAuth_Bypass_Status>
-<NonAuth_Status_Code><![CDATA[302]]></NonAuth_Status_Code>
-<NonAuth_Content_Length><![CDATA[270]]></NonAuth_Content_Length></Message>
+<?xml version="1.0" encoding="UTF-8"?>
+<Content>
+    <Message>
+        <ID><![CDATA[1]]></ID>
+        <Method><![CDATA[GET]]></Method>
+        <Host><![CDATA[sogecdeltapp.web.oxv.fr]]></Host>
+        <Path><![CDATA[/tests]]></Path>
+        <Comment><![CDATA[]]></Comment>
+        <Original_Status_Code><![CDATA[200]]></Original_Status_Code>
+        <Original_Content_Length><![CDATA[1000]]></Original_Content_Length>
+        <Ecole_Bypass_Status><![CDATA[SAME]]></Ecole_Bypass_Status>
+        <Ecole_Status_Code><![CDATA[302]]></Ecole_Status_Code>
+        <Ecole_Content_Length><![CDATA[270]]></Ecole_Content_Length>
+        <SAILME_Bypass_Status><![CDATA[SAME]]></SAILME_Bypass_Status>
+        <SAILME_Status_Code><![CDATA[302]]></SAILME_Status_Code>
+        <SAILME_Content_Length><![CDATA[270]]></SAILME_Content_Length>
+        <NonAuth_Bypass_Status><![CDATA[DIFFERENT]]></NonAuth_Bypass_Status>
+        <NonAuth_Status_Code><![CDATA[302]]></NonAuth_Status_Code>
+        <NonAuth_Content_Length><![CDATA[270]]></NonAuth_Content_Length>
+    </Message>
+    <Message>
+        <ID><![CDATA[2]]></ID>
+        <Method><![CDATA[GET]]></Method>
+        <Host><![CDATA[sogecdeltapp.web.oxv.fr]]></Host>
+        <Path><![CDATA[/tests]]></Path>
+        <Comment><![CDATA[]]></Comment>
+        <Original_Status_Code><![CDATA[200]]></Original_Status_Code>
+        <Original_Content_Length><![CDATA[1000]]></Original_Content_Length>
+        <Ecole_Bypass_Status><![CDATA[SAME]]></Ecole_Bypass_Status>
+        <Ecole_Status_Code><![CDATA[200]]></Ecole_Status_Code>
+        <Ecole_Content_Length><![CDATA[1000]]></Ecole_Content_Length>
+        <SAILME_Bypass_Status><![CDATA[SAME]]></SAILME_Bypass_Status>
+        <SAILME_Status_Code><![CDATA[200]]></SAILME_Status_Code>
+        <SAILME_Content_Length><![CDATA[1000]]></SAILME_Content_Length>
+        <NonAuth_Bypass_Status><![CDATA[SAME]]></NonAuth_Bypass_Status>
+        <NonAuth_Status_Code><![CDATA[200]]></NonAuth_Status_Code>
+        <NonAuth_Content_Length><![CDATA[1000]]></NonAuth_Content_Length>
+    </Message>
+    <Message>
+        <ID><![CDATA[3]]></ID>
+        <Method><![CDATA[GET]]></Method>
+        <Host><![CDATA[sogecdeltapp.web.oxv.fr]]></Host>
+        <Path><![CDATA[/oui?param=1]]></Path>
+        <Comment><![CDATA[]]></Comment>
+        <Original_Status_Code><![CDATA[200]]></Original_Status_Code>
+        <Original_Content_Length><![CDATA[1500]]></Original_Content_Length>
+        <Ecole_Bypass_Status><![CDATA[SAME]]></Ecole_Bypass_Status>
+        <Ecole_Status_Code><![CDATA[302]]></Ecole_Status_Code>
+        <Ecole_Content_Length><![CDATA[270]]></Ecole_Content_Length>
+        <SAILME_Bypass_Status><![CDATA[SAME]]></SAILME_Bypass_Status>
+        <SAILME_Status_Code><![CDATA[302]]></SAILME_Status_Code>
+        <SAILME_Content_Length><![CDATA[270]]></SAILME_Content_Length>
+        <NonAuth_Bypass_Status><![CDATA[DIFFERENT]]></NonAuth_Bypass_Status>
+        <NonAuth_Status_Code><![CDATA[302]]></NonAuth_Status_Code>
+        <NonAuth_Content_Length><![CDATA[270]]></NonAuth_Content_Length>
+    </Message>
+    <Message>
+        <ID><![CDATA[4]]></ID>
+        <Method><![CDATA[GET]]></Method>
+        <Host><![CDATA[sogecdeltapp.web.oxv.fr]]></Host>
+        <Path><![CDATA[/oui?param=2]]></Path>
+        <Comment><![CDATA[]]></Comment>
+        <Original_Status_Code><![CDATA[200]]></Original_Status_Code>
+        <Original_Content_Length><![CDATA[1500]]></Original_Content_Length>
+        <Ecole_Bypass_Status><![CDATA[SAME]]></Ecole_Bypass_Status>
+        <Ecole_Status_Code><![CDATA[302]]></Ecole_Status_Code>
+        <Ecole_Content_Length><![CDATA[270]]></Ecole_Content_Length>
+        <SAILME_Bypass_Status><![CDATA[SAME]]></SAILME_Bypass_Status>
+        <SAILME_Status_Code><![CDATA[302]]></SAILME_Status_Code>
+        <SAILME_Content_Length><![CDATA[270]]></SAILME_Content_Length>
+        <NonAuth_Bypass_Status><![CDATA[DIFFERENT]]></NonAuth_Bypass_Status>
+        <NonAuth_Status_Code><![CDATA[302]]></NonAuth_Status_Code>
+        <NonAuth_Content_Length><![CDATA[270]]></NonAuth_Content_Length>
+    </Message>
+    <Message>
+        <ID><![CDATA[5]]></ID>
+        <Method><![CDATA[GET]]></Method>
+        <Host><![CDATA[sogecdeltapp.web.oxv.fr]]></Host>
+        <Path><![CDATA[/oui?param=test]]></Path>
+        <Comment><![CDATA[]]></Comment>
+        <Original_Status_Code><![CDATA[200]]></Original_Status_Code>
+        <Original_Content_Length><![CDATA[1500]]></Original_Content_Length>
+        <Ecole_Bypass_Status><![CDATA[SAME]]></Ecole_Bypass_Status>
+        <Ecole_Status_Code><![CDATA[200]]></Ecole_Status_Code>
+        <Ecole_Content_Length><![CDATA[1500]]></Ecole_Content_Length>
+        <SAILME_Bypass_Status><![CDATA[SAME]]></SAILME_Bypass_Status>
+        <SAILME_Status_Code><![CDATA[200]]></SAILME_Status_Code>
+        <SAILME_Content_Length><![CDATA[1500]]></SAILME_Content_Length>
+        <NonAuth_Bypass_Status><![CDATA[SAME]]></NonAuth_Bypass_Status>
+        <NonAuth_Status_Code><![CDATA[200]]></NonAuth_Status_Code>
+        <NonAuth_Content_Length><![CDATA[1500]]></NonAuth_Content_Length>
+    </Message>
+    <Message>
+        <ID><![CDATA[6]]></ID>
+        <Method><![CDATA[GET]]></Method>
+        <Host><![CDATA[sogecdeltapp.web.oxv.fr]]></Host>
+        <Path><![CDATA[/oui?test=5]]></Path>
+        <Comment><![CDATA[]]></Comment>
+        <Original_Status_Code><![CDATA[200]]></Original_Status_Code>
+        <Original_Content_Length><![CDATA[1500]]></Original_Content_Length>
+        <Ecole_Bypass_Status><![CDATA[SAME]]></Ecole_Bypass_Status>
+        <Ecole_Status_Code><![CDATA[302]]></Ecole_Status_Code>
+        <Ecole_Content_Length><![CDATA[270]]></Ecole_Content_Length>
+        <SAILME_Bypass_Status><![CDATA[DIFFERENT]]></SAILME_Bypass_Status>
+        <SAILME_Status_Code><![CDATA[302]]></SAILME_Status_Code>
+        <SAILME_Content_Length><![CDATA[270]]></SAILME_Content_Length>
+        <NonAuth_Bypass_Status><![CDATA[DIFFERENT]]></NonAuth_Bypass_Status>
+        <NonAuth_Status_Code><![CDATA[302]]></NonAuth_Status_Code>
+        <NonAuth_Content_Length><![CDATA[270]]></NonAuth_Content_Length>
+    </Message>
+    <Message>
+        <ID><![CDATA[7]]></ID>
+        <Method><![CDATA[GET]]></Method>
+        <Host><![CDATA[sogecdeltapp.web.oxv.fr]]></Host>
+        <Path><![CDATA[/oui]]></Path>
+        <Comment><![CDATA[]]></Comment>
+        <Original_Status_Code><![CDATA[200]]></Original_Status_Code>
+        <Ecole_Bypass_Status><![CDATA[SAME]]></Ecole_Bypass_Status>
+        <Original_Content_Length><![CDATA[750]]></Original_Content_Length>
+        <Ecole_Status_Code><![CDATA[302]]></Ecole_Status_Code>
+        <Ecole_Content_Length><![CDATA[270]]></Ecole_Content_Length>
+        <SAILME_Bypass_Status><![CDATA[SAME]]></SAILME_Bypass_Status>
+        <SAILME_Status_Code><![CDATA[302]]></SAILME_Status_Code>
+        <SAILME_Content_Length><![CDATA[270]]></SAILME_Content_Length>
+        <NonAuth_Bypass_Status><![CDATA[DIFFERENT]]></NonAuth_Bypass_Status>
+        <NonAuth_Status_Code><![CDATA[302]]></NonAuth_Status_Code>
+        <NonAuth_Content_Length><![CDATA[270]]></NonAuth_Content_Length>
+    </Message>
+    <Message>
+        <ID><![CDATA[8]]></ID>
+        <Method><![CDATA[GET]]></Method>
+        <Host><![CDATA[sogecdeltapp.web.oxv.fr]]></Host>
+        <Path><![CDATA[/tests?param=4]]></Path>
+        <Comment><![CDATA[]]></Comment>
+        <Original_Status_Code><![CDATA[200]]></Original_Status_Code>
+        <Original_Content_Length><![CDATA[1000]]></Original_Content_Length>
+        <Ecole_Bypass_Status><![CDATA[DIFFERENT]]></Ecole_Bypass_Status>
+        <Ecole_Status_Code><![CDATA[302]]></Ecole_Status_Code>
+        <Ecole_Content_Length><![CDATA[270]]></Ecole_Content_Length>
+        <SAILME_Bypass_Status><![CDATA[SAME]]></SAILME_Bypass_Status>
+        <SAILME_Status_Code><![CDATA[302]]></SAILME_Status_Code>
+        <SAILME_Content_Length><![CDATA[270]]></SAILME_Content_Length>
+        <NonAuth_Bypass_Status><![CDATA[DIFFERENT]]></NonAuth_Bypass_Status>
+        <NonAuth_Status_Code><![CDATA[302]]></NonAuth_Status_Code>
+        <NonAuth_Content_Length><![CDATA[270]]></NonAuth_Content_Length>
+    </Message>
+    <Message>
+        <ID><![CDATA[9]]></ID>
+        <Method><![CDATA[GET]]></Method>
+        <Host><![CDATA[sogecdeltapp.web.oxv.fr]]></Host>
+        <Path><![CDATA[/tests]]></Path>
+        <Comment><![CDATA[]]></Comment>
+        <Original_Status_Code><![CDATA[200]]></Original_Status_Code>
+        <Original_Content_Length><![CDATA[1000]]></Original_Content_Length>
+        <Ecole_Bypass_Status><![CDATA[SAME]]></Ecole_Bypass_Status>
+        <Ecole_Status_Code><![CDATA[200]]></Ecole_Status_Code>
+        <Ecole_Content_Length><![CDATA[1000]]></Ecole_Content_Length>
+        <SAILME_Bypass_Status><![CDATA[SAME]]></SAILME_Bypass_Status>
+        <SAILME_Status_Code><![CDATA[200]]></SAILME_Status_Code>
+        <SAILME_Content_Length><![CDATA[1000]]></SAILME_Content_Length>
+        <NonAuth_Bypass_Status><![CDATA[SAME]]></NonAuth_Bypass_Status>
+        <NonAuth_Status_Code><![CDATA[200]]></NonAuth_Status_Code>
+        <NonAuth_Content_Length><![CDATA[1000]]></NonAuth_Content_Length>
+    </Message>
 </Content>
